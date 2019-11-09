@@ -7,10 +7,13 @@ h1{
 	text-align: center;
 	font: "atomic-age", Segoe;
 	color: white;
+
 }
 
 p{
-	margin-left: 5%; 
+	margin-left: 5%;
 	color: white;
 	font: 10em;
+	position: relative;
+
 }
