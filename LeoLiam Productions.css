@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-image: url("../../../Downloads/africa-african-animal-33045.jpg")
+	font-size: 16px;
 }
 h1{
 	text-align: center;
@@ -16,4 +16,37 @@ p{
 	font: 10em;
 	position: relative;
 
+}
+
+div.navbar{
+	position: static;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #242323;
+	margin left: 10px;
+
+}
+
+.menu > li{
+	display: inline;
+}
+
+a.active, a.nav-link{
+	text-decoration: none;
+  padding-right: 3.5em;
+	font-size: 2em;
+}
+
+a.nav-link{
+	color: #198a42;
+}
+
+a.active{
+	color: #195d8a;
+}
+
+img.logo{
+	width: 2.5em;
+	padding-top: 3px;
+	padding-right: 1em;
 }
