@@ -20,12 +20,12 @@ p{
 }
 
 div.navbar{
-	position: static;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-top: -10px;
+	position: sticky;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -16px;
+	padding-top: 0.1px;
+	padding-bottom: 0.1px;
 	background-color: #242323;
 	margin left: 10px;
 	background-image: url("Navbar BCG.jpg");
@@ -37,7 +37,7 @@ div.navbar{
 
 a.active, a.nav-link{
 	text-decoration: none;
-  padding-right: 3.5em;
+  padding-right: 2.5em;
 	font-size: 2em;
 	font-family: Righteous;
 }
@@ -51,7 +51,6 @@ a.active{
 }
 
 img.logo{
-	width: 2.5em;
-	padding-top: 3px;
-	padding-right: 1em;
+	width: 3em;
+	padding-right: 1.5em;
 }
