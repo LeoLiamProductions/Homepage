@@ -8,20 +8,28 @@ body{
 h1{
 	text-align: center;
 	font: "atomic-age", Segoe;
-	color: black;
+	color: white;
 	font-size: 3em;
 
 }
 
 div.title > p{
 	margin-left: 5%;
-	color: black;
+	color: white;
 	font-size: 2em;
 	position: relative;
 	font-family: monospace;
 	text-align: center;
 	margin-right: 100px;
 	margin-left: 100px;
+}
+
+div.title{
+	background-image: url(img/title-bcg2.jpg);
+	margin: -8px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+
 }
 
 div.navbar{
