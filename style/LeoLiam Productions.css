@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age&display=swap');
 /* CSS Document */
 body{
 	font-size: 16px;
@@ -7,16 +8,20 @@ body{
 h1{
 	text-align: center;
 	font: "atomic-age", Segoe;
-	color: white;
+	color: black;
+	font-size: 3em;
 
 }
 
-p{
+div.title > p{
 	margin-left: 5%;
-	color: white;
-	font: 10em;
+	color: black;
+	font-size: 2em;
 	position: relative;
-
+	font-family: monospace;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 div.navbar{
@@ -26,9 +31,8 @@ div.navbar{
 	margin-top: -16px;
 	padding-top: 0.1px;
 	padding-bottom: 0.1px;
-	background-color: #242323;
 	margin left: 10px;
-	background-image: url("Navbar BCG.jpg");
+	background-image: linear-gradient(#404040, #000000);
 }
 
 .menu > li{
@@ -39,11 +43,11 @@ a.active, a.nav-link{
 	text-decoration: none;
   padding-right: 2.5em;
 	font-size: 2em;
-	font-family: Righteous;
+	font-family: Atomic Age;
 }
 
 a.nav-link{
-	color: #9ba7b0;
+	color: #f28e13;
 }
 
 a.active{
